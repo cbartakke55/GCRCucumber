@@ -1,0 +1,136 @@
+2019-08-07 13:53:44,510 - com.stepdefinitions.Hooks -INFO - Scnario 1 : Verify login functionality ussing valid username and password
+2019-08-07 13:53:44,728 - com.controller.Controller -INFO - Step 1 : When User OpensChrome browser
+2019-08-07 13:53:49,804 - com.operations.Operations -INFO - Chrome browser launched..!!
+2019-08-07 13:53:50,232 - com.controller.Controller -INFO - Step 2 : When user enters http://www.gcrit.com/build3/admin/login.php as url
+2019-08-07 13:53:54,572 - com.controller.Controller -INFO - Step 3 : user will be on application's login page
+2019-08-07 13:53:55,736 - com.operations.Operations -INFO - Login Page Verified..!!
+2019-08-07 13:53:56,036 - com.controller.Controller -INFO - Step 4 : When user enters admin as a username
+2019-08-07 13:53:58,225 - com.operations.Operations -INFO - UserName admin entered successfully..!!
+2019-08-07 13:53:58,558 - com.controller.Controller -INFO - Step 5 : When user enters admin@123 as a password
+2019-08-07 13:54:00,800 - com.operations.Operations -INFO - Password admin@123 entered successfully..!!
+2019-08-07 13:54:01,130 - com.controller.Controller -INFO - Step 6 : user clicks on submit button
+2019-08-07 13:54:03,979 - com.operations.Operations -INFO - Clicked On Submit Button..!!
+2019-08-07 13:54:03,981 - com.controller.Controller -INFO - Step 7 : Then user will be on apllication home page
+2019-08-07 13:54:06,083 - com.operations.Operations -INFO - HomePage Verified..!!
+2019-08-07 13:54:06,454 - com.controller.Controller -INFO - Step 8 : Then user clicks on logout link
+2019-08-07 13:54:09,584 - com.operations.Operations -INFO - Clicked On Logout Link..!!
+2019-08-07 13:54:09,588 - com.controller.Controller -INFO - Step 9 : user will be on application's login page
+2019-08-07 13:54:10,648 - com.operations.Operations -INFO - Login Page Verified..!!
+2019-08-07 13:54:10,958 - com.controller.Controller -INFO - Step 10 : Then close the browser
+2019-08-07 13:54:14,232 - com.operations.Operations -INFO - Browser Closed..!!
+2019-08-07 13:54:16,077 - com.stepdefinitions.Hooks -INFO - Scnario 2 : Verify login funcationality by passing invalid details
+2019-08-07 13:54:16,082 - com.controller.Controller -INFO - Step 1 : When User OpensChrome browser
+2019-08-07 13:54:20,012 - com.operations.Operations -INFO - Chrome browser launched..!!
+2019-08-07 13:54:20,347 - com.controller.Controller -INFO - Step 2 : When user enters http://www.gcrit.com/build3/admin/login.php as url
+2019-08-07 13:54:23,790 - com.controller.Controller -INFO - Step 3 : user will be on application's login page
+2019-08-07 13:54:24,854 - com.operations.Operations -INFO - Login Page Verified..!!
+2019-08-07 13:54:25,164 - com.controller.Controller -INFO - Step 4 : When user enters admin as a username
+2019-08-07 13:54:27,362 - com.operations.Operations -INFO - UserName admin entered successfully..!!
+2019-08-07 13:54:27,672 - com.controller.Controller -INFO - Step 5 : When user enters Admin@123 as a password
+2019-08-07 13:54:29,874 - com.operations.Operations -INFO - Password Admin@123 entered successfully..!!
+2019-08-07 13:54:30,176 - com.controller.Controller -INFO - Step 6 : user clicks on submit button
+2019-08-07 13:54:32,552 - com.operations.Operations -INFO - Clicked On Submit Button..!!
+2019-08-07 13:54:32,554 - com.controller.Controller -INFO - Step 7 : Then user should get  Error: Invalid administrator login attempt. as an error message
+2019-08-07 13:54:33,625 - com.operations.Operations -INFO - Error Message Displayed :  Error: Invalid administrator login attempt.
+2019-08-07 13:54:34,080 - com.controller.Controller -INFO - Step 8 : Then close the browser
+2019-08-07 13:54:37,263 - com.operations.Operations -INFO - Browser Closed..!!
+2019-08-07 13:54:38,249 - com.stepdefinitions.Hooks -INFO - Scnario 3 : Verify login funcationality by passing invalid details
+2019-08-07 13:54:38,251 - com.controller.Controller -INFO - Step 1 : When User OpensChrome browser
+2019-08-07 13:54:41,365 - com.operations.Operations -INFO - Chrome browser launched..!!
+2019-08-07 13:54:41,759 - com.controller.Controller -INFO - Step 2 : When user enters http://www.gcrit.com/build3/admin/login.php as url
+2019-08-07 13:54:45,304 - com.controller.Controller -INFO - Step 3 : user will be on application's login page
+2019-08-07 13:54:46,366 - com.operations.Operations -INFO - Login Page Verified..!!
+2019-08-07 13:54:46,687 - com.controller.Controller -INFO - Step 4 : When user enters Admin as a username
+2019-08-07 13:54:48,861 - com.operations.Operations -INFO - UserName Admin entered successfully..!!
+2019-08-07 13:54:49,202 - com.controller.Controller -INFO - Step 5 : When user enters admin@123 as a password
+2019-08-07 13:54:51,380 - com.operations.Operations -INFO - Password admin@123 entered successfully..!!
+2019-08-07 13:54:51,692 - com.controller.Controller -INFO - Step 6 : user clicks on submit button
+2019-08-07 13:54:54,070 - com.operations.Operations -INFO - Clicked On Submit Button..!!
+2019-08-07 13:54:54,072 - com.controller.Controller -INFO - Step 7 : Then user should get  Error: Invalid administrator login attempt. as an error message
+2019-08-07 13:54:55,152 - com.operations.Operations -INFO - Error Message Displayed :  Error: Invalid administrator login attempt.
+2019-08-07 13:54:55,483 - com.controller.Controller -INFO - Step 8 : Then close the browser
+2019-08-07 13:54:58,648 - com.operations.Operations -INFO - Browser Closed..!!
+2019-08-07 13:54:59,662 - com.stepdefinitions.Hooks -INFO - Scnario 4 : Verify login funcationality by passing invalid details
+2019-08-07 13:54:59,665 - com.controller.Controller -INFO - Step 1 : When User OpensChrome browser
+2019-08-07 13:55:02,838 - com.operations.Operations -INFO - Chrome browser launched..!!
+2019-08-07 13:55:03,256 - com.controller.Controller -INFO - Step 2 : When user enters http://www.gcrit.com/build3/admin/login.php as url
+2019-08-07 13:55:06,834 - com.controller.Controller -INFO - Step 3 : user will be on application's login page
+2019-08-07 13:55:07,887 - com.operations.Operations -INFO - Login Page Verified..!!
+2019-08-07 13:55:08,202 - com.controller.Controller -INFO - Step 4 : When user enters Admin as a username
+2019-08-07 13:55:10,383 - com.operations.Operations -INFO - UserName Admin entered successfully..!!
+2019-08-07 13:55:10,694 - com.controller.Controller -INFO - Step 5 : When user enters Admin@123 as a password
+2019-08-07 13:55:12,865 - com.operations.Operations -INFO - Password Admin@123 entered successfully..!!
+2019-08-07 13:55:13,197 - com.controller.Controller -INFO - Step 6 : user clicks on submit button
+2019-08-07 13:55:15,572 - com.operations.Operations -INFO - Clicked On Submit Button..!!
+2019-08-07 13:55:15,574 - com.controller.Controller -INFO - Step 7 : Then user should get  Error: Invalid administrator login attempt. as an error message
+2019-08-07 13:55:16,646 - com.operations.Operations -INFO - Error Message Displayed :  Error: Invalid administrator login attempt.
+2019-08-07 13:55:16,969 - com.controller.Controller -INFO - Step 8 : Then close the browser
+2019-08-07 13:55:20,113 - com.operations.Operations -INFO - Browser Closed..!!
+2019-08-07 14:47:37,118 - com.stepdefinitions.Hooks -INFO - Scnario 1 : Verify login functionality ussing valid username and password
+2019-08-07 14:47:37,250 - com.controller.Controller -INFO - Step 1 : When User OpensChrome browser
+2019-08-07 14:47:43,060 - com.operations.Operations -INFO - Chrome browser launched..!!
+2019-08-07 14:47:43,566 - com.controller.Controller -INFO - Step 2 : When user enters http://www.gcrit.com/build3/admin/login.php as url
+2019-08-07 14:47:50,826 - com.controller.Controller -INFO - Step 3 : user will be on application's login page
+2019-08-07 14:47:51,895 - com.operations.Operations -INFO - Login Page Verified..!!
+2019-08-07 14:47:52,213 - com.controller.Controller -INFO - Step 4 : When user enters admin as a username
+2019-08-07 14:47:54,399 - com.operations.Operations -INFO - UserName admin entered successfully..!!
+2019-08-07 14:47:54,738 - com.controller.Controller -INFO - Step 5 : When user enters admin@123 as a password
+2019-08-07 14:47:56,933 - com.operations.Operations -INFO - Password admin@123 entered successfully..!!
+2019-08-07 14:47:57,282 - com.controller.Controller -INFO - Step 6 : user clicks on submit button
+2019-08-07 14:48:00,041 - com.operations.Operations -INFO - Clicked On Submit Button..!!
+2019-08-07 14:48:00,041 - com.controller.Controller -INFO - Step 7 : Then user will be on apllication home page
+2019-08-07 14:48:02,134 - com.operations.Operations -INFO - HomePage Verified..!!
+2019-08-07 14:48:02,487 - com.controller.Controller -INFO - Step 8 : Then user clicks on logout link
+2019-08-07 14:48:06,165 - com.operations.Operations -INFO - Clicked On Logout Link..!!
+2019-08-07 14:48:06,173 - com.controller.Controller -INFO - Step 9 : user will be on application's login page
+2019-08-07 14:48:07,276 - com.operations.Operations -INFO - Login Page Verified..!!
+2019-08-07 14:48:07,595 - com.controller.Controller -INFO - Step 10 : Then close the browser
+2019-08-07 14:48:10,774 - com.operations.Operations -INFO - Browser Closed..!!
+2019-08-07 14:48:12,142 - com.stepdefinitions.Hooks -INFO - Scnario 2 : Verify login funcationality by passing invalid details
+2019-08-07 14:48:12,142 - com.controller.Controller -INFO - Step 1 : When User OpensChrome browser
+2019-08-07 14:48:15,579 - com.operations.Operations -INFO - Chrome browser launched..!!
+2019-08-07 14:48:16,046 - com.controller.Controller -INFO - Step 2 : When user enters http://www.gcrit.com/build3/admin/login.php as url
+2019-08-07 14:48:19,722 - com.controller.Controller -INFO - Step 3 : user will be on application's login page
+2019-08-07 14:48:20,801 - com.operations.Operations -INFO - Login Page Verified..!!
+2019-08-07 14:48:21,095 - com.controller.Controller -INFO - Step 4 : When user enters admin as a username
+2019-08-07 14:48:23,305 - com.operations.Operations -INFO - UserName admin entered successfully..!!
+2019-08-07 14:48:23,612 - com.controller.Controller -INFO - Step 5 : When user enters Admin@123 as a password
+2019-08-07 14:48:25,811 - com.operations.Operations -INFO - Password Admin@123 entered successfully..!!
+2019-08-07 14:48:26,121 - com.controller.Controller -INFO - Step 6 : user clicks on submit button
+2019-08-07 14:48:28,488 - com.operations.Operations -INFO - Clicked On Submit Button..!!
+2019-08-07 14:48:28,492 - com.controller.Controller -INFO - Step 7 : Then user should get  Error: Invalid administrator login attempt. as an error message
+2019-08-07 14:48:29,651 - com.operations.Operations -INFO - Error Message Displayed :  Error: Invalid administrator login attempt.
+2019-08-07 14:48:30,021 - com.controller.Controller -INFO - Step 8 : Then close the browser
+2019-08-07 14:48:33,201 - com.operations.Operations -INFO - Browser Closed..!!
+2019-08-07 14:48:34,394 - com.stepdefinitions.Hooks -INFO - Scnario 3 : Verify login funcationality by passing invalid details
+2019-08-07 14:48:34,394 - com.controller.Controller -INFO - Step 1 : When User OpensChrome browser
+2019-08-07 14:48:37,976 - com.operations.Operations -INFO - Chrome browser launched..!!
+2019-08-07 14:48:38,419 - com.controller.Controller -INFO - Step 2 : When user enters http://www.gcrit.com/build3/admin/login.php as url
+2019-08-07 14:48:42,182 - com.controller.Controller -INFO - Step 3 : user will be on application's login page
+2019-08-07 14:48:43,287 - com.operations.Operations -INFO - Login Page Verified..!!
+2019-08-07 14:48:43,643 - com.controller.Controller -INFO - Step 4 : When user enters Admin as a username
+2019-08-07 14:48:45,884 - com.operations.Operations -INFO - UserName Admin entered successfully..!!
+2019-08-07 14:48:46,213 - com.controller.Controller -INFO - Step 5 : When user enters admin@123 as a password
+2019-08-07 14:48:48,528 - com.operations.Operations -INFO - Password admin@123 entered successfully..!!
+2019-08-07 14:48:48,847 - com.controller.Controller -INFO - Step 6 : user clicks on submit button
+2019-08-07 14:48:51,429 - com.operations.Operations -INFO - Clicked On Submit Button..!!
+2019-08-07 14:48:51,433 - com.controller.Controller -INFO - Step 7 : Then user should get  Error: Invalid administrator login attempt. as an error message
+2019-08-07 14:48:52,550 - com.operations.Operations -INFO - Error Message Displayed :  Error: Invalid administrator login attempt.
+2019-08-07 14:48:52,867 - com.controller.Controller -INFO - Step 8 : Then close the browser
+2019-08-07 14:48:56,014 - com.operations.Operations -INFO - Browser Closed..!!
+2019-08-07 14:48:57,067 - com.stepdefinitions.Hooks -INFO - Scnario 4 : Verify login funcationality by passing invalid details
+2019-08-07 14:48:57,067 - com.controller.Controller -INFO - Step 1 : When User OpensChrome browser
+2019-08-07 14:49:00,380 - com.operations.Operations -INFO - Chrome browser launched..!!
+2019-08-07 14:49:00,767 - com.controller.Controller -INFO - Step 2 : When user enters http://www.gcrit.com/build3/admin/login.php as url
+2019-08-07 14:49:04,780 - com.controller.Controller -INFO - Step 3 : user will be on application's login page
+2019-08-07 14:49:05,887 - com.operations.Operations -INFO - Login Page Verified..!!
+2019-08-07 14:49:06,263 - com.controller.Controller -INFO - Step 4 : When user enters Admin as a username
+2019-08-07 14:49:08,538 - com.operations.Operations -INFO - UserName Admin entered successfully..!!
+2019-08-07 14:49:08,831 - com.controller.Controller -INFO - Step 5 : When user enters Admin@123 as a password
+2019-08-07 14:49:11,046 - com.operations.Operations -INFO - Password Admin@123 entered successfully..!!
+2019-08-07 14:49:11,342 - com.controller.Controller -INFO - Step 6 : user clicks on submit button
+2019-08-07 14:49:13,664 - com.operations.Operations -INFO - Clicked On Submit Button..!!
+2019-08-07 14:49:13,664 - com.controller.Controller -INFO - Step 7 : Then user should get  Error: Invalid administrator login attempt. as an error message
+2019-08-07 14:49:14,761 - com.operations.Operations -INFO - Error Message Displayed :  Error: Invalid administrator login attempt.
+2019-08-07 14:49:15,106 - com.controller.Controller -INFO - Step 8 : Then close the browser
+2019-08-07 14:49:18,340 - com.operations.Operations -INFO - Browser Closed..!!
